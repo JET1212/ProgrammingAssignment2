@@ -28,7 +28,7 @@ cacheSolve <- function(a, ...) {
 	## We call "retrieveInversion" from our list of functions
 	## to retrieve the results of the inversion.
 
-    x$retrieveInversion(inversion)
+    a$retrieveInversion(inversion)
 
 	## Return the value of "inversion".
 
