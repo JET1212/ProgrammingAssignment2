@@ -70,7 +70,7 @@ cacheSolve <- function(a, ...) {
         return(inversion)
     } else {
 
-	## Set the variable "data" to the result of the function "retrieve" from makeCacheMatrix.
+	## Otherwise, set the variable "data" to the result of the function "retrieve" from makeCacheMatrix.
 
     data <- a$retrieve()
 
@@ -79,8 +79,7 @@ cacheSolve <- function(a, ...) {
 
     inversion <- solve(data)
 
-	## We call "doInversion" from our list of functions
-	## to execute an inversion.
+	## We call "doInversion" from our list of functions.
 
     a$doInversion(inversion)
 
