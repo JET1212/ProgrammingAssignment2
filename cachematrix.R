@@ -3,7 +3,6 @@
 ## In the event that the matrix inversion has been already calculated, 
 ## cacheSolve retrieves it from the cache.
 
-
 ## makeCacheMatrix creates the matrix.
 
 makeCacheMatrix <- function(a = matrix()) {
